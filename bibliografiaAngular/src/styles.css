@@ -1,0 +1,43 @@
+html {
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Georgia', serif;
+  color: rgb(251, 240, 216);
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  font-family: "Bodoni", serif;
+  color: rgb(17, 48, 71);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+section {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.body-diseño {
+  background-color: rgb(251, 240, 216);
+  height: 100%;
+  min-height: 100vh;
+}

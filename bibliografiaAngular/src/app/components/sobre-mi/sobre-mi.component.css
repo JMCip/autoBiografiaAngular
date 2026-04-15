@@ -1,0 +1,62 @@
+.section-sobremi {
+  background-color: rgb(251, 240, 216);
+}
+
+.sobremi-container {
+  max-width: 1100px;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sobremi-tarjeta {
+  background: linear-gradient(135deg, #1a4a68, #113047);
+  color: white;
+  padding: 4rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+  position: relative;
+  min-height: 220px;
+  cursor: pointer;
+}
+
+.sobremi-tarjeta:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(135deg, #113047, #1f6b99);
+}
+
+.letra-subtitulos {
+  font-family: 'Georgia', serif;
+  color: rgb(251, 240, 216);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contenido-oculto {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.3s ease;
+  padding: 0 20px;
+}
+
+.sobremi-tarjeta.activa .contenido-oculto {
+  max-height: 600px;
+  padding: 20px;
+}
+
+.mensaje-click {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  opacity: 0.8;
+  font-style: italic;
+  transition: opacity 0.3s ease;
+}
+
+.sobremi-tarjeta:hover .mensaje-click {
+  opacity: 1;
+}
